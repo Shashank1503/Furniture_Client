@@ -1,0 +1,61 @@
+.navbar-menu{
+    display: contents;
+}
+.navbar-start{
+    display: flex;
+    flex: auto;
+}
+.nav-a{
+    padding: 3vh;
+    text-decoration: none !important;
+    color: black;
+    font-weight: 600;
+    &:hover{
+        background-color: lightgrey;
+        color: black;
+    }
+}
+.nav-flex{
+    display: flex;
+    flex: auto;
+}
+.pad-10{
+    padding: 3vh;
+}
+.search-icon{
+    background-color: white;
+    border: none;
+    color: #525452;
+}
+.input-outline{
+    border: none;
+    border-bottom: 2px solid rgb(255, 139, 96);
+    padding-bottom: 5px;
+    &:focus{
+        outline: none;
+    }
+}
+.checkout-icon{
+    border: none;
+    padding-right: 5vh;
+    background-color: white;
+    padding-left: 0vh;
+    &:focus{
+        outline: none;
+    }
+}
+.is-light{
+    padding-left: 5vh;
+}
+.wrapper{
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+@media only screen and (min-width: 1000px) {
+    .wrapper{
+        flex-wrap: wrap !important;
+    }
+  }
+  

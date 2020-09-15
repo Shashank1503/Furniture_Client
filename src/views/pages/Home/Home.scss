@@ -1,0 +1,33 @@
+.home-desc{
+    position: relative;
+    bottom: 275px;
+    left: 25%;
+    width: fit-content;
+}
+.button-div{
+    width: max-content;
+    margin: 2rem auto 0;
+}
+.btn-shadow{
+    box-shadow: 0 2px 4px 0 rgba(65,48,62,.3);
+}
+.btn-video{
+    background-color: #ff5757;
+    border-radius: 27px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 24px;
+    padding: 15px 54px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: background-color .3s ease-out;
+    cursor: pointer;
+}
+a{
+    text-decoration: none !important;
+}
+.min-height{
+    max-height: 65vh;
+}

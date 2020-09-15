@@ -1,0 +1,36 @@
+.blankdiv{
+    height: 40px;
+    width: 70%;
+    background-color: white;
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+}
+.fixed-height{
+    height: 200px !important;
+}
+.card-title-new{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.pos-above{
+    position: relative;
+    bottom: 70px;
+}
+.no-pad{
+    padding: 0 !important;
+}
+.price{
+    text-align: right;
+    font-weight: 600;
+}
+.cat-font{
+    font-size: 0.7rem;
+    color: grey;
+}
+.card-bor{
+    height: 19rem;
+    border: none !important;
+    margin: 0.8rem;
+    width: 16rem !important;
+}
